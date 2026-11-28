@@ -170,7 +170,7 @@ section{padding:clamp(52px,7vw,100px) 0}
 .schild-box .btn{width:100%}
 .schild-box .fein{font-size:12.5px;color:#5a6066;text-align:center;margin-top:8px}
 @media (max-width:1020px){.such-grid{grid-template-columns:minmax(0,1fr)}.schild-box{position:relative;top:0;max-width:440px}.typen{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:520px){.schild-box{padding:18px}.typen{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -20px;padding:4px 20px 8px;scrollbar-width:none}.typen::-webkit-scrollbar{display:none}.typ{flex:0 0 42%;scroll-snap-align:start}.typ span{font-size:20px}}
+@media (max-width:520px){.schild-box{padding:18px}.typen{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -20px;padding:4px 20px 8px;scrollbar-width:none}.typen::-webkit-scrollbar{display:none}.typ{flex:0 0 42%;scroll-snap-align:start;scroll-snap-stop:always}.typ span{font-size:20px}}
 
 /* Antworten */
 .antw .kopfzeile{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:34px}
@@ -189,7 +189,7 @@ section{padding:clamp(52px,7vw,100px) 0}
 @media (hover:hover){.ready .paar.live:hover{transform:translateY(-3px)}.ready .paar.live:hover .blase.m{box-shadow:0 0 0 4px rgba(155,134,255,.25)}}
 .quelle{margin-top:20px;font-size:13px;color:var(--grau)}
 .wisch-hint{display:none;margin-top:12px;font-size:13px;color:var(--grau)}
-@media (max-width:1000px){.paare{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 -20px;padding:0 20px 6px;scrollbar-width:none}.paare::-webkit-scrollbar{display:none}.paar{flex:0 0 min(84%,420px);scroll-snap-align:start}.wisch-hint{display:block}}
+@media (max-width:1000px){.paare{display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;gap:14px;margin:0 -20px;padding:0 20px 6px;scrollbar-width:none}.paare::-webkit-scrollbar{display:none}.paar{flex:0 0 min(84%,420px);scroll-snap-align:start}.wisch-hint{display:block}}
 
 /* Schluss: SMS mit Thomas */
 .schluss{background:var(--gelb);color:var(--graphit)}
